@@ -14,8 +14,18 @@ public class Gerbong {
             this.arrayKursi[i] = new Kursi(String.valueOf(i + 1));
         }
     }
-    public void setPenumpang(Penumpang penumpang, int nomor){
-        this.arrayKursi[nomor - 1].setPenumpang(penumpang);
+public void setPenumpang(Penumpang penumpang, int nomor) {
+    int index = nomor - 1;
+    if (index >= 0 && index < arrayKursi.length) {
+        if (this.arrayKursi[index].getPenumpang() == null) {
+            this.arrayKursi[index].setPenumpang(penumpang);
+        } else {
+            System.out.println("Kursi nomor " + nomor + " sudah terisi oleh penumpang lain!");
+        }
+    } else {
+        System.out.println("Nomor kursi tidak valid!");
+    }
+
     }
     public String info() {
         String info = "";
@@ -26,3 +36,4 @@ public class Gerbong {
         return info;
     }
 }
+
