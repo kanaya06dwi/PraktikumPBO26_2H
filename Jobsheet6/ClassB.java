@@ -1,7 +1,7 @@
 package Jobsheet6;
 
 public class ClassB extends ClassA {
-    private int z;
+    protected int z;
 
     public void setZ(int z) {
         this.z = z;
