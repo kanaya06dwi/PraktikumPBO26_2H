@@ -1,6 +1,6 @@
 package Jobsheet6;
 
-public class ClassB {
+public class ClassB extends ClassA {
     public int z;
 
     public void getNilaiZ() {
