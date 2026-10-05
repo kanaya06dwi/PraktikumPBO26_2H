@@ -8,8 +8,8 @@ public class TiketInternasional extends TiketPesawat{
 
     }
 
-    public TiketInternasional(String kodeTiket, String namaPenumpang, String asal, String tujuan, int hargaDasar, String maskapai, int beratBagasi, String nomorPaspor, int asuransi) {
-        super(kodeTiket, namaPenumpang, asal, tujuan, hargaDasar, maskapai, beratBagasi);
+    public TiketInternasional(String kodeTiket, String namaPenumpang, String asal, String tujuan, int getHargaDasar, String maskapai, int beratBagasi, String nomorPaspor, int asuransi) {
+        super(kodeTiket, namaPenumpang, asal, tujuan, getHargaDasar, maskapai, beratBagasi);
         this.nomorPaspor = nomorPaspor;
         this.asuransi = asuransi;
     }

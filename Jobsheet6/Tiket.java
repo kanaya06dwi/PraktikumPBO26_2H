@@ -10,6 +10,9 @@ public class Tiket {
     public Tiket() {
 
     }
+    public int getHargaDasar() {
+    return hargaDasar;
+}
 
     public Tiket(String kodeTiket, String namaPenumpang, String asal, String tujuan, int hargaDasar) {
         this.kodeTiket = kodeTiket;

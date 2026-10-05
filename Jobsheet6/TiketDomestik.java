@@ -7,8 +7,8 @@ public class TiketDomestik extends TiketPesawat {
 
     }
 
-    public TiketDomestik(String kodeTiket, String namaPenumpang, String asal, String tujuan, int hargaDasar, String maskapai, int beratBagasi, int pajakBandara) {
-        super(kodeTiket, namaPenumpang, asal, tujuan, hargaDasar, maskapai, beratBagasi);
+    public TiketDomestik(String kodeTiket, String namaPenumpang, String asal, String tujuan, int getHargaDasar, String maskapai, int beratBagasi, int pajakBandara) {
+        super(kodeTiket, namaPenumpang, asal, tujuan, getHargaDasar, maskapai, beratBagasi);
         this.pajakBandara = pajakBandara;
     }
 
