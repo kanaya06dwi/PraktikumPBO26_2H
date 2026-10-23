@@ -3,7 +3,6 @@ package Jobsheet9.abstractclass09;
 public class Orang {
     private String nama;
     private Hewan hewanPeliharaan;
-
     public Orang(String nama){
         this.nama = nama;
     }
