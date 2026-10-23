@@ -13,5 +13,6 @@ public class Program {
 
         ani.ajakPeliharaanJalanJalan();
         budi.ajakPeliharaanJalanJalan();
+        
     }
 }
